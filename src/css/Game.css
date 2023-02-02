@@ -1,0 +1,57 @@
+.game{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    background-color:#F7EFE5;
+
+}
+
+
+.game_timer{
+    font-size: 3em;
+    color: #674188;
+}
+
+
+
+.bets{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 5%;
+    flex-wrap: wrap;
+    margin: 1% 20% 1%;
+    
+}
+.card{
+    border: 5px solid black;
+    border-radius: 10px;
+    border: solid black ;
+    display: flex;
+    flex-direction: column;
+    width: 6em;
+    margin: 15% 0 15%;
+    background-color: #C3ACD0;
+    
+}
+.card[disabled]{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.card_text{
+    font-size: 4em;
+}
+
+.card_counter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+
+    
+}
+.card_counter button {
+    border-radius: 100%;
+}

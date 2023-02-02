@@ -1,0 +1,23 @@
+.play{
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    /* flex: 1; */
+    background-color:#F7EFE5;
+}
+
+.play h1{
+    color: #674188;
+}
+.play button{
+    font-size: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C3ACD0;
+    
+}

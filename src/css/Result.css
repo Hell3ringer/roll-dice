@@ -1,0 +1,24 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: #F7EFE5;
+}
+
+.displayMsg {
+  color: #674188;
+  font-size: 7vw;
+  display: flex;
+}
+.displayMsg[woncolor] {
+  color: green;
+}
+
+.displayBtn {
+  background: #C3ACD0;
+  font-size: 4vw;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 3%;
+}

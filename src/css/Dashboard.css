@@ -1,0 +1,33 @@
+.html{
+    height: 100%;
+}
+.dash{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 100vh;
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    color: rebeccapurple;
+    padding: 2%;
+    background-color: #F7EFE5;
+}
+.navbar select{
+    color: rebeccapurple;
+    background-color: #F7EFE5;
+    border: 0;
+    font-size: large;
+}
+.winper{
+    display: flex;
+    background-color: #F7EFE5;
+    justify-content: space-around;
+    color: #674188;
+    font-size: 2vw;
+    padding-bottom: 1%;
+}
