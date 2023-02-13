@@ -3,6 +3,7 @@ import "../css/Game.css";
 import currency from "../service/currency.js";
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms)); // used to delay time
+
 export default class Game extends Component {
   constructor(props) {
     super(props);
